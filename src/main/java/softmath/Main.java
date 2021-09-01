@@ -1,4 +1,5 @@
 package softmath;
+import java.util.Scanner;
 
 public class Main {
 
@@ -12,6 +13,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Scanner myObj = new Scanner(System.in);
+
+        boolean entrar = true;
+        while (entrar) {
+            menu();
+            int opcion = myObj.nextInt();
+            if (opcion > 0 && opcion < 12) {
+                // switch case
+            }
+        }
 
     }
 }
