@@ -35,15 +35,25 @@ public class Main {
                 switch (opcion){
                     //suma
                     case 1:
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        System.out.println("La suma es: " + operadores.suma(a,b));
                         break;
                     //Multiplicación
                     case 2:
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        System.out.println("La multiplicacion es: " + operadores.multiplicacion(a,b));
                         break;
                     //logaritmo
                     case 3:
+                        a = metodoDe1Numero(myObj);
+                        System.out.println("El logaritmo base 10 es: " + operadores.logaritmo(a));
                         break;
                     //Raiz
                     case 4:
+                        a = metodoDe1Numero(myObj);
+                        System.out.println("La raiz cuadrada es: " + operadores.raiz(a));
                         break;
                     //Potencia
                     case 5:
@@ -70,14 +80,18 @@ public class Main {
                         break;
                     //Coseno
                     case 8:
+                        a = metodoDe1Numero(myObj);
+                        System.out.println("El coseno es: " + operadores.coseno(a));
                         break;
                     //Factorial
                     case 9:
                         int numero = metodoDe1Numero(myObj);
                         System.out.println("numero = " + numero);
                         break;
-                    //Coseno
+                    //Seno
                     case 10:
+                        a = metodoDe1Numero(myObj);
+                        System.out.println("El Seno es: " + operadores.seno(a));
                         break;
                     case 11:
                         entrar=false;
