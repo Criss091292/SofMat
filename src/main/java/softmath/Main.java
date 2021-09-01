@@ -2,6 +2,7 @@ package softmath;
 import javax.swing.*;
 import java.util.Scanner;
 
+
 public class Main {
 
     public static void menu(){
@@ -11,14 +12,19 @@ public class Main {
         System.out.println("9 - FACTORIAL \n10 - SENO \n11 - TERMINAR");
         System.out.println("Escoja una opción de las anteriores");
     }
-    public static int metodoDe1Numero(){
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("Por favor ingresa un numero"));
+    public static int metodoDe1Numero(Scanner teclado){
+
+        System.out.println("Por favor ingresa un numero");
+        int numero = teclado.nextInt();
         return numero;
     }
 
     public static void main(String[] args) {
 
+
         Scanner myObj = new Scanner(System.in);
+        Operadores operadores = new Operadores();
+
 
         boolean entrar = true;
         while (entrar) {
@@ -41,22 +47,36 @@ public class Main {
                         break;
                     //Potencia
                     case 5:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        System.out.println("La potencia es: " + operadores.crearPotencia(a,b));
                         break;
                     //
                     //División
                     case 6:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.division(a,b);
                         break;
                     //Resta
                     case 7:
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        System.out.println("La resta es: " + operadores.resta(a,b));
                         break;
                     //Coseno
                     case 8:
                         break;
                     //Factorial
                     case 9:
-                        int numero = metodoDe1Numero();
+                        int numero = metodoDe1Numero(myObj);
                         System.out.println("numero = " + numero);
                         break;
+                    //Coseno
                     case 10:
                         break;
                     case 11:
@@ -69,6 +89,7 @@ public class Main {
                 System.out.println("Opcion incorrecta");
             }
         }
+
 
     }
 
