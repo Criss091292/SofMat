@@ -9,7 +9,7 @@ public class Operadores {
     }
 
 
-    public double resta(double nro1, double nro2) {
+    public static double resta(double nro1, double nro2) {
         return (nro1 - nro2);
     }
 
