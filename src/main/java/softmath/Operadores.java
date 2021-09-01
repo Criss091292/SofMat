@@ -7,6 +7,8 @@ public class Operadores {
     public static double crearPotencia(double base, double exponente ){
         return Math.pow(base,exponente);
     }
-
-    //Cometario de prueba
+  
+    public static double suma(double num1, double num2 ){
+        return num1+num2;
+    }
 }
