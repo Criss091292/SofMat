@@ -4,6 +4,24 @@ import java.util.Scanner;
 
 public class Operadores {
 
+  
+    public Operadores() {
+    }
+        // Prueba realizada
+    public void division(double num1, double num2){
+        //validacion division entre
+
+        if(num2==0)
+        {
+            System.out.println("No se puede dividir entre cero");
+        }
+        // método para dividir
+        if(num2!=0)
+        {
+            System.out.println("El resultado de la división es: " + num1/num2);
+        }
+
+
 
 
 
@@ -15,11 +33,17 @@ public class Operadores {
         return Math.cos(Math.toRadians(angulo));
 
 
-    public Operadores() {
-    }
-    public double crearPotencia(double base, double exponente ){
-        return Math.pow(base,exponente);
 
     }
 
+    //revisado con exito
+    public void crearPotencia(double base, double exponente ){
+        if(base == 0 && exponente==0)
+        {
+            System.out.println("No se puede realizar una potenciación con ceros");
+        }
+        else
+        {
+            System.out.println(Math.pow(base,exponente));
+        }
 }
