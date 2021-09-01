@@ -8,5 +8,5 @@ public class Operadores {
         return Math.pow(base,exponente);
     }
 
-    public float resta(){}
+    public double resta(double nro1, double nro2){}
 }
