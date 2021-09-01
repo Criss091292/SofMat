@@ -3,8 +3,8 @@ public class Operadores {
         return num;
     }
 
-    public int seno(int num){
-        return num;
+    public int seno(int num1){
+        return num1;
     }
 
 }
