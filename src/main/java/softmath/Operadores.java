@@ -10,7 +10,7 @@ public class Operadores {
 
     /**
      * Este es un metodo que recive un double y calcula el logaritmo de ducho numero, en caso de recivir un negativo retorna 0
-     * @param double
+     * @param base double
      * @return Este es un metodo retorna un double.
      */
     public static double crearlogaritmo(double base){
@@ -21,6 +21,11 @@ public class Operadores {
     }
 
 
+    /**
+     * Este es un metodo que recibe una variable tipo double.
+     * @param radicando double
+     * @return retorna la raiz cuadrada de dicha variable.
+     */
     public static double raizCuadrada(double radicando) {
         return Math.sqrt(radicando);
     }
