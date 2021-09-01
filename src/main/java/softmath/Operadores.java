@@ -3,6 +3,9 @@ package softmath;
 import java.util.Scanner;
 
 public class Operadores {
+  
+    public Operadores() {
+    }
         // Prueba realizada
     public void division(double num1, double num2){
         //validacion division entre
@@ -28,6 +31,4 @@ public class Operadores {
         {
             System.out.println(Math.pow(base,exponente));
         }
-    }
-
 }
