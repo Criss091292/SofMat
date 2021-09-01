@@ -9,7 +9,10 @@ public class Operadores {
     }
 
     public static double crearlogaritmo(double base){
-        return Math.log(base);
+        if (base >0){
+            return Math.log(base);
+        }
+        return 0;
     }
 
     public static double raizCuadrada(double radical, double radicando) {
