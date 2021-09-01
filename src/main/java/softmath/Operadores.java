@@ -26,4 +26,6 @@ public class Operadores {
      * @param num2 segundo número a multiplicar
      * @return el producto de num1 y num2
      */
+    public static double multiplicacion(double num1, double num2 ){return num1*num2;}
+
 }
