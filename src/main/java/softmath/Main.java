@@ -44,6 +44,19 @@ public class Main {
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
                         System.out.println("La multiplicacion es: " + operadores.multiplicacion(a,b));
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.suma(a,b);
+                        break;
+                    //Multiplicación
+                    case 2:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.multiplicacion(a,b);
                         break;
                     //logaritmo
                     case 3:
@@ -54,6 +67,11 @@ public class Main {
                     case 4:
                         a = metodoDe1Numero(myObj);
                         System.out.println("La raiz cuadrada es: " + operadores.raiz(a));
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.raiz(a,b);
                         break;
                     //Potencia
                     case 5:
