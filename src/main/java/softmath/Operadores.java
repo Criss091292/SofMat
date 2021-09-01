@@ -20,7 +20,7 @@ public class Operadores {
         {
             System.out.println("El resultado de la división es: " + num1/num2);
         }
-
+    }
 
 
 
@@ -46,4 +46,5 @@ public class Operadores {
         {
             System.out.println(Math.pow(base,exponente));
         }
+    }
 }
