@@ -3,6 +3,7 @@ package softmath;
 import java.util.Scanner;
 
 public class Operadores {
+
   
     public Operadores() {
     }
@@ -19,6 +20,20 @@ public class Operadores {
         {
             System.out.println("El resultado de la división es: " + num1/num2);
         }
+
+
+
+
+
+    public static double Resta(double nro1, double nro2) {
+        return (nro1 - nro2);
+    }
+
+    public static double Coseno(double angulo){
+        return Math.cos(Math.toRadians(angulo));
+
+
+
     }
 
     //revisado con exito
