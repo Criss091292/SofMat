@@ -41,22 +41,11 @@ public class Main {
                         break;
                     //Multiplicación
                     case 2:
-                        a = metodoDe1Numero(myObj);
-                        b = metodoDe1Numero(myObj);
-                        System.out.println("La multiplicacion es: " + operadores.multiplicacion(a,b));
                         double a;
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.suma(a,b);
-                        break;
-                    //Multiplicación
-                    case 2:
-                        double a;
-                        double b;
-                        a = metodoDe1Numero(myObj);
-                        b = metodoDe1Numero(myObj);
-                        operadores.multiplicacion(a,b);
+                        System.out.println("La multiplicación es: " + operadores.multiplicacion(a,b));
                         break;
                     //logaritmo
                     case 3:
@@ -65,13 +54,11 @@ public class Main {
                         break;
                     //Raiz
                     case 4:
-                        a = metodoDe1Numero(myObj);
-                        System.out.println("La raiz cuadrada es: " + operadores.raiz(a));
                         double a;
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.raiz(a,b);
+                        System.out.println("La raiz cuadrada es: " + operadores.raiz(a));
                         break;
                     //Potencia
                     case 5:
@@ -88,7 +75,7 @@ public class Main {
                         double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        operadores.division(a,b);
+                        System.out.println("La división es"+ operadores.division(a,b));
                         break;
                     //Resta
                     case 7:
