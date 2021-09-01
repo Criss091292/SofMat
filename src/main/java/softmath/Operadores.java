@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Operadores {
 
-    public static double crearPotencia(double base, double exponente ){
+    public static double CrearPotencia(double base, double exponente ){
         return Math.pow(base,exponente);
     }
 
@@ -15,7 +15,7 @@ public class Operadores {
      * @param num2 segundo número a sumar
      * @return la suma de num1 y num2
      */
-    public static double suma(double num1, double num2 ){
+    public static double Suma(double num1, double num2 ){
         return num1+num2;
     }
 
@@ -26,6 +26,6 @@ public class Operadores {
      * @param num2 segundo número a multiplicar
      * @return el producto de num1 y num2
      */
-    public static double multiplicacion(double num1, double num2 ){return num1*num2;}
+    public static double Multiplicacion(double num1, double num2 ){return num1*num2;}
 
 }
