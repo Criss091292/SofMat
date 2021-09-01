@@ -3,9 +3,10 @@ package softmath;
 import java.util.Scanner;
 
 public class Operadores {
-
+        // Prueba realizada
     public void division(double num1, double num2){
-        //validacion division entre cero
+        //validacion division entre
+
         if(num2==0)
         {
             System.out.println("No se puede dividir entre cero");
