@@ -8,7 +8,10 @@ public class Operadores {
         return Math.pow(base, exponente);
     }
 
+    public static double crearlogaritmo(double base){}
+
     public static double raizCuadrada(double radical, double radicando) {
         return 0;
     }
+
 }
