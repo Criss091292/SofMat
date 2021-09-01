@@ -1,7 +1,14 @@
 package softmath;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        Scanner myObj = new Scanner(System.in);
+        int opcion = myObj.nextInt();
+        boolean entrar = true;
+        while (entrar) {
+            System.out.println("entramos");
+            break;
+        }
     }
 }
