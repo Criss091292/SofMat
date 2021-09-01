@@ -35,15 +35,30 @@ public class Main {
                 switch (opcion){
                     //suma
                     case 1:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.suma(a,b);
                         break;
                     //Multiplicación
                     case 2:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.multiplicacion(a,b);
                         break;
                     //logaritmo
                     case 3:
                         break;
                     //Raiz
                     case 4:
+                        double a;
+                        double b;
+                        a = metodoDe1Numero(myObj);
+                        b = metodoDe1Numero(myObj);
+                        operadores.raiz(a,b);
                         break;
                     //Potencia
                     case 5:
