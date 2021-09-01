@@ -17,7 +17,8 @@ public class Operadores {
         }
     }
 
-    public static void crearPotencia(double base, double exponente ){
+    //revisado con exito
+    public void crearPotencia(double base, double exponente ){
         if(base == 0 && exponente==0)
         {
             System.out.println("No se puede realizar una potenciación con ceros");
