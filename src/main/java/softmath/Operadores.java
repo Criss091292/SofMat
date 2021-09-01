@@ -8,4 +8,13 @@ public class Operadores {
         return Math.pow(base,exponente);
     }
 
+
+    public static double resta(double nro1, double nro2) {
+        return (nro1 - nro2);
+    }
+
+    public static double crearCoseno(double angulo){
+        return Math.cos(Math.toRadians(angulo));
+
+    }
 }
