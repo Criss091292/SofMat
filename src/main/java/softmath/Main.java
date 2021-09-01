@@ -21,6 +21,45 @@ public class Main {
             int opcion = myObj.nextInt();
             if (opcion > 0 && opcion < 12) {
                 // switch case
+                switch (opcion){
+                    //suma
+                    case 1:
+                        break;
+                    //Multiplicación
+                    case 2:
+                        break;
+                    //logaritmo
+                    case 3:
+                        break;
+                    //Raiz
+                    case 4:
+                        break;
+                    //Potencia
+                    case 5:
+                        break;
+                    //
+                    //División
+                    case 6:
+                        break;
+                    //Resta
+                    case 7:
+                        break;
+                    //Coseno
+                    case 8:
+                        break;
+                    //Factorial
+                    case 9:
+                        break;
+                    case 10:
+                        break;
+                    case 11:
+                        entrar=false;
+                        break;
+                    default:
+                        System.out.println("Ya dañaste todo");
+                }
+            }else{
+                System.out.println("Opcion incorrecta");
             }
         }
 
