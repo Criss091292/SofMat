@@ -1,3 +1,5 @@
+package softmath;
+
 import java.util.Scanner;
 
 public class Operadores {
