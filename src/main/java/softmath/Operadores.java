@@ -8,5 +8,5 @@ public class Operadores {
         return Math.pow(base,exponente);
     }
 
-    public static double crearCoseno(){}
+    public static double crearCoseno(double angulo){}
 }
