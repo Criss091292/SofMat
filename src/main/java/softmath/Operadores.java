@@ -17,6 +17,7 @@ public class Operadores {
         }
     }
 
+    //revisado con exito
     public static void crearPotencia(double base, double exponente ){
         if(base == 0 && exponente==0)
         {
