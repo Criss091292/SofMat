@@ -1,4 +1,5 @@
 package softmath;
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -9,6 +10,10 @@ public class Main {
         System.out.println("5 - POTENCI \n6 - DIVISIÓN \n7 - RESTA \n8 - COSENO");
         System.out.println("9 - FACTORIAL \n10 - SENO \n11 - TERMINAR");
         System.out.println("Escoja una opción de las anteriores");
+    }
+    public static int metodoDe1Numero(){
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Por favor ingresa un numero"));
+        return numero;
     }
 
     public static void main(String[] args) {
@@ -49,6 +54,8 @@ public class Main {
                         break;
                     //Factorial
                     case 9:
+                        int numero = metodoDe1Numero();
+                        System.out.println("numero = " + numero);
                         break;
                     case 10:
                         break;
@@ -64,4 +71,5 @@ public class Main {
         }
 
     }
+
 }
