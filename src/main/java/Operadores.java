@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Operadores {
     private static int factorial(int num) {
 
@@ -8,9 +9,15 @@ public class Operadores {
             return num * factorial(num - 1);
     }
 
-    public int seno(int num1) {
-        return num1;
+    public double seno(double num1) {
+        try {
+            //double b = ;
+        } catch (Exception e) {
+            System.out.println("ERROR: Datos incorrectos.");
+        }
+        return Math.sin(Math.toRadians(num1));
     }
 
-
 }
+
+
