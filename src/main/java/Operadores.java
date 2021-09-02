@@ -1,5 +1,5 @@
-
 public class Operadores {
+  
     public int factorial (int num) {
 
         // Definición de factorial para n >= 0 entero positivo
