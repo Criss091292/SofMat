@@ -3,6 +3,8 @@ import javax.swing.*;
 import java.util.Scanner;
 
 
+import static softmath.Operadores.*;
+
 public class Main {
 
     public static void menu(){
