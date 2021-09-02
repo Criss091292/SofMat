@@ -6,9 +6,10 @@ public class Operadores {
 
         if (num==1 || num ==0) {
             return 1;
-        } else
+        } else{
             return num * factorial(num - 1);
     }
+}
 
     public double seno(double num1) {
         try {
