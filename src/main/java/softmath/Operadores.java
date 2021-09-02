@@ -6,9 +6,11 @@ public class Operadores {
 
 
 
+    /*
     public static double crearPotencia(double base, double exponente) {
         return Math.pow(base, exponente);
     }
+    */
 
     /**
      * Este es un metodo que recive un double y calcula el logaritmo de ducho numero, en caso de recivir un negativo retorna 0
@@ -93,7 +95,7 @@ public class Operadores {
         }
     }
 
-    /*
+
     public int factorial (int num) {
 
         // Definición de factorial para n >= 0 entero positivo
@@ -114,5 +116,5 @@ public class Operadores {
         return Math.sin(Math.toRadians(num1));
     }
 
-     */
+
 }
