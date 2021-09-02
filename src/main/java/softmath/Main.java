@@ -85,12 +85,13 @@ public class Main {
                         break;
                     //Factorial
                     case 9:
-                        System.out.println("Falta funcionalidad");
+                        a = metodoDe1Numero(myObj);
+                        System.out.println("el factorial es: "+operadores.factorial(a));
                         break;
                     //Seno
                     case 10:
                         a = metodoDe1Numero(myObj);
-                        System.out.println("Falta funcionalidad");
+                        System.out.println("el seno es: "+operadores.seno(a));
                         break;
                     case 11:
                         entrar=false;
