@@ -52,7 +52,7 @@ public class Main {
                     //logaritmo
                     case 3:
                         a = metodoDe1Numero(myObj);
-                        System.out.println("El logaritmo base 10 es: " + operadores.crearLogaritmo(a));
+                        System.out.println("El logaritmo base 10 es: " + operadores.crearlogaritmo(a));
                         break;
                     //Raiz
                     case 4:
@@ -63,7 +63,7 @@ public class Main {
                     case 5:
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        System.out.println("La potencia es: " + operadores.crearPotencia(a,b));
+                        operadores.crearPotencia(a,b);
                         break;
                     //
                     //División
@@ -85,8 +85,8 @@ public class Main {
                         break;
                     //Factorial
                     case 9:
-                        a = metodoDe1Numero(myObj);
-                        System.out.println("el factorial es: "+operadores.factorial(a));
+                        a =  metodoDe1Numero(myObj);
+                        System.out.println("el factorial es: "+operadores.factorial((int)a));
                         break;
                     //Seno
                     case 10:
