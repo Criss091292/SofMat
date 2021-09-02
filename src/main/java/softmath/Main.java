@@ -27,6 +27,8 @@ public class Main {
         Scanner myObj = new Scanner(System.in);
         Operadores operadores = new Operadores();
 
+        double a = 0;
+        double b = 0;
 
         boolean entrar = true;
         while (entrar) {
@@ -37,35 +39,28 @@ public class Main {
                 switch (opcion){
                     //suma
                     case 1:
-                        a = metodoDe1Numero(myObj);
-                        b = metodoDe1Numero(myObj);
-                        System.out.println("La suma es: " + operadores.suma(a,b));
+                         a = metodoDe1Numero(myObj);
+                         b = metodoDe1Numero(myObj);
+                        System.out.println("La suma es: " + operadores.Suma(a,b));
                         break;
                     //Multiplicación
                     case 2:
-                        double a;
-                        double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        System.out.println("La multiplicación es: " + operadores.multiplicacion(a,b));
+                        System.out.println("La multiplicación es: " + operadores.Multiplicacion(a,b));
                         break;
                     //logaritmo
                     case 3:
                         a = metodoDe1Numero(myObj);
-                        System.out.println("El logaritmo base 10 es: " + operadores.logaritmo(a));
+                        System.out.println("El logaritmo base 10 es: " + operadores.crearLogaritmo(a));
                         break;
                     //Raiz
                     case 4:
-                        double a;
-                        double b;
                         a = metodoDe1Numero(myObj);
-                        b = metodoDe1Numero(myObj);
-                        System.out.println("La raiz cuadrada es: " + operadores.raiz(a));
+                        System.out.println("La raiz cuadrada es: " + operadores.raizCuadrada(a));
                         break;
                     //Potencia
                     case 5:
-                        double a;
-                        double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
                         System.out.println("La potencia es: " + operadores.crearPotencia(a,b));
@@ -73,32 +68,29 @@ public class Main {
                     //
                     //División
                     case 6:
-                        double a;
-                        double b;
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        System.out.println("La división es"+ operadores.division(a,b));
+                        operadores.division(a,b);
                         break;
                     //Resta
                     case 7:
                         a = metodoDe1Numero(myObj);
                         b = metodoDe1Numero(myObj);
-                        System.out.println("La resta es: " + operadores.resta(a,b));
+                        System.out.println("La resta es: " + operadores.Resta(a,b));
                         break;
                     //Coseno
                     case 8:
                         a = metodoDe1Numero(myObj);
-                        System.out.println("El coseno es: " + operadores.coseno(a));
+                        System.out.println("El coseno es: " + operadores.Coseno(a));
                         break;
                     //Factorial
                     case 9:
-                        int numero = metodoDe1Numero(myObj);
-                        System.out.println("numero = " + numero);
+                        System.out.println("Falta funcionalidad");
                         break;
                     //Seno
                     case 10:
                         a = metodoDe1Numero(myObj);
-                        System.out.println("El Seno es: " + operadores.seno(a));
+                        System.out.println("Falta funcionalidad");
                         break;
                     case 11:
                         entrar=false;
