@@ -32,12 +32,12 @@ public class Operadores {
         return Math.sqrt(radicando);
     }
 
-  
+
 
     public Operadores() {
 
     }
-        // Prueba realizada
+    // Prueba realizada
     public void division(double num1, double num2){
         //validacion division entre
         if(num2==0)
@@ -70,7 +70,7 @@ public class Operadores {
      */
     public static double Multiplicacion(double num1, double num2 ){return num1*num2;}
 
-        
+
 
     public static double Resta(double nro1, double nro2) {
         return (nro1 - nro2);
@@ -92,4 +92,27 @@ public class Operadores {
             System.out.println(Math.pow(base,exponente));
         }
     }
+
+    /*
+    public int factorial (int num) {
+
+        // Definición de factorial para n >= 0 entero positivo
+
+        if (num==1 || num ==0) {
+            return 1;
+        } else{
+            return num * factorial(num - 1);
+        }
+    }
+
+    public double seno(double num1) {
+        try {
+            //double b = ;
+        } catch (Exception e) {
+            System.out.println("ERROR: Datos incorrectos.");
+        }
+        return Math.sin(Math.toRadians(num1));
+    }
+
+     */
 }
