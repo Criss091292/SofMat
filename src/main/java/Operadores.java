@@ -1,8 +1,9 @@
-import java.util.Scanner;
+
 public class Operadores {
-    private static int factorial(int num) {
+    public int factorial (int num) {
 
         // Definición de factorial para n >= 0 entero positivo
+
         if (num==1 || num ==0) {
             return 1;
         } else
